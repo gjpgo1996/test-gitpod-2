@@ -1,0 +1,32 @@
+{
+  "name": "test-gitpod",
+  "version": "1.0.0",
+  "description": "Este tutorial se centra en analizar las posibilidades que nos ofrece esta plataforma de trabajar con un editor en línea.",
+  "main": "./build/app.js",
+  "scripts": {
+    "start": "node .",
+    "tsc": "./node_modules/typescript/bin/tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gjpgo1996/test-gitpod.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gjpgo1996/test-gitpod/issues"
+  },
+  "homepage": "https://github.com/gjpgo1996/test-gitpod#readme",
+  "devDependencies": {
+    "@types/node": "^13.9.5",
+    "@typescript-eslint/eslint-plugin": "^2.25.0",
+    "@typescript-eslint/parser": "^2.25.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2"
+  },
+  "dependencies": {
+    "typescript": "^3.8.3"
+  }
+}
